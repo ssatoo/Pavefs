@@ -1,0 +1,151 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "apiRequest"
+- "apiMethod"
+provides-nominal:
+- "V6Pavefs10apiRequest"
+- "VV6Pavefs10apiRequest19registrationRequest"
+- "VV6Pavefs10apiRequest12loginRequest"
+- "VV6Pavefs10apiRequest13logoutRequest"
+- "VV6Pavefs10apiRequest18userProfileRequest"
+- "VV6Pavefs10apiRequest20updateProfileRequest"
+- "VV6Pavefs10apiRequest21changePasswordRequest"
+- "VV6Pavefs10apiRequest25retrieveIndividualRequest"
+- "VV6Pavefs10apiRequest20addIndividualRequest"
+- "VV6Pavefs10apiRequest21editIndividualRequest"
+- "VV6Pavefs10apiRequest23deleteIndividualRequest"
+- "VV6Pavefs10apiRequest24RetrieveQuerylistRequest"
+- "VV6Pavefs10apiRequest18AddNewQueryRequest"
+- "VV6Pavefs10apiRequest23RetrieveOntologyRequest"
+- "VV6Pavefs10apiRequest28RetrieveClassOntologyRequest"
+- "VV6Pavefs10apiRequest26RetrieveQueryResultRequest"
+- "VV6Pavefs10apiRequest16ViewQueryRequest"
+- "VV6Pavefs10apiRequest19RelatedCasesRequest"
+- "V6Pavefs9apiMethod"
+provides-member:
+- ["V6Pavefs10apiRequest", ""]
+- ["VV6Pavefs10apiRequest19registrationRequest", ""]
+- ["VV6Pavefs10apiRequest12loginRequest", ""]
+- ["VV6Pavefs10apiRequest13logoutRequest", ""]
+- ["VV6Pavefs10apiRequest18userProfileRequest", ""]
+- ["VV6Pavefs10apiRequest20updateProfileRequest", ""]
+- ["VV6Pavefs10apiRequest21changePasswordRequest", ""]
+- ["VV6Pavefs10apiRequest25retrieveIndividualRequest", ""]
+- ["VV6Pavefs10apiRequest20addIndividualRequest", ""]
+- ["VV6Pavefs10apiRequest21editIndividualRequest", ""]
+- ["VV6Pavefs10apiRequest23deleteIndividualRequest", ""]
+- ["VV6Pavefs10apiRequest24RetrieveQuerylistRequest", ""]
+- ["VV6Pavefs10apiRequest18AddNewQueryRequest", ""]
+- ["VV6Pavefs10apiRequest23RetrieveOntologyRequest", ""]
+- ["VV6Pavefs10apiRequest28RetrieveClassOntologyRequest", ""]
+- ["VV6Pavefs10apiRequest26RetrieveQueryResultRequest", ""]
+- ["VV6Pavefs10apiRequest16ViewQueryRequest", ""]
+- ["VV6Pavefs10apiRequest19RelatedCasesRequest", ""]
+- ["V6Pavefs9apiMethod", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "apiRequest"
+- "StringLiteralType"
+- "apiMethod"
+depends-member:
+- ["VV6Pavefs10apiRequest18AddNewQueryRequest", "init"]
+- ["VV6Pavefs10apiRequest18AddNewQueryRequest", "request"]
+- ["VV6Pavefs10apiRequest19RelatedCasesRequest", "init"]
+- ["VV6Pavefs10apiRequest19RelatedCasesRequest", "request"]
+- ["VV6Pavefs10apiRequest28RetrieveClassOntologyRequest", "init"]
+- ["VV6Pavefs10apiRequest28RetrieveClassOntologyRequest", "request"]
+- ["VV6Pavefs10apiRequest23RetrieveOntologyRequest", "init"]
+- ["VV6Pavefs10apiRequest23RetrieveOntologyRequest", "request"]
+- ["VV6Pavefs10apiRequest26RetrieveQueryResultRequest", "init"]
+- ["VV6Pavefs10apiRequest26RetrieveQueryResultRequest", "request"]
+- ["VV6Pavefs10apiRequest24RetrieveQuerylistRequest", "init"]
+- ["VV6Pavefs10apiRequest24RetrieveQuerylistRequest", "request"]
+- ["VV6Pavefs10apiRequest16ViewQueryRequest", "init"]
+- ["VV6Pavefs10apiRequest16ViewQueryRequest", "request"]
+- ["VV6Pavefs10apiRequest20addIndividualRequest", "init"]
+- ["VV6Pavefs10apiRequest20addIndividualRequest", "request"]
+- ["V6Pavefs9apiMethod", "ADD_INDIVIDUAL_API"]
+- ["V6Pavefs9apiMethod", "ADD_NEW_QUERY"]
+- ["V6Pavefs9apiMethod", "CHANGE_PASSWORD_API"]
+- ["V6Pavefs9apiMethod", "DELETE_INDIVIDUAL_API"]
+- ["V6Pavefs9apiMethod", "EDIT_INDIVIDUAL_API"]
+- ["V6Pavefs9apiMethod", "LOGIN_API"]
+- ["V6Pavefs9apiMethod", "LOGOUT_API"]
+- ["V6Pavefs9apiMethod", "ONTOLOGYTREE_API"]
+- ["V6Pavefs9apiMethod", "ONTOLOGY_API"]
+- ["V6Pavefs9apiMethod", "REGISTRATION_API"]
+- ["V6Pavefs9apiMethod", "RELATEDCASES_API"]
+- ["V6Pavefs9apiMethod", "RESULTSQUERY_API"]
+- ["V6Pavefs9apiMethod", "RETRIEVE_INDIVIDUAL_API"]
+- ["V6Pavefs9apiMethod", "RETRIEVE_PROFILE_API"]
+- ["V6Pavefs9apiMethod", "RETRIVE_QUERYLIST_API"]
+- ["V6Pavefs9apiMethod", "UPDATE_PROFILE_API"]
+- ["V6Pavefs9apiMethod", "VIEWQUERY_API"]
+- ["V6Pavefs9apiMethod", "init"]
+- ["V6Pavefs10apiRequest", "AddNewQueryRequest"]
+- ["V6Pavefs10apiRequest", "RelatedCasesRequest"]
+- ["V6Pavefs10apiRequest", "RetrieveClassOntologyRequest"]
+- ["V6Pavefs10apiRequest", "RetrieveOntologyRequest"]
+- ["V6Pavefs10apiRequest", "RetrieveQueryResultRequest"]
+- ["V6Pavefs10apiRequest", "RetrieveQuerylistRequest"]
+- ["V6Pavefs10apiRequest", "ViewQueryRequest"]
+- ["V6Pavefs10apiRequest", "addIndividualRequest"]
+- ["V6Pavefs10apiRequest", "changePasswordRequest"]
+- ["V6Pavefs10apiRequest", "deleteIndividualRequest"]
+- ["V6Pavefs10apiRequest", "editIndividualRequest"]
+- ["V6Pavefs10apiRequest", "init"]
+- ["V6Pavefs10apiRequest", "loginRequest"]
+- ["V6Pavefs10apiRequest", "logoutRequest"]
+- ["V6Pavefs10apiRequest", "registrationRequest"]
+- ["V6Pavefs10apiRequest", "retrieveIndividualRequest"]
+- ["V6Pavefs10apiRequest", "updateProfileRequest"]
+- ["V6Pavefs10apiRequest", "userProfileRequest"]
+- ["VV6Pavefs10apiRequest21changePasswordRequest", "init"]
+- ["VV6Pavefs10apiRequest21changePasswordRequest", "request"]
+- ["VV6Pavefs10apiRequest23deleteIndividualRequest", "init"]
+- ["VV6Pavefs10apiRequest23deleteIndividualRequest", "request"]
+- ["VV6Pavefs10apiRequest21editIndividualRequest", "init"]
+- ["VV6Pavefs10apiRequest21editIndividualRequest", "request"]
+- ["VV6Pavefs10apiRequest12loginRequest", "init"]
+- ["VV6Pavefs10apiRequest12loginRequest", "request"]
+- ["VV6Pavefs10apiRequest13logoutRequest", "init"]
+- ["VV6Pavefs10apiRequest13logoutRequest", "request"]
+- ["VV6Pavefs10apiRequest19registrationRequest", "init"]
+- ["VV6Pavefs10apiRequest19registrationRequest", "request"]
+- ["VV6Pavefs10apiRequest25retrieveIndividualRequest", "init"]
+- ["VV6Pavefs10apiRequest25retrieveIndividualRequest", "request"]
+- ["VV6Pavefs10apiRequest20updateProfileRequest", "init"]
+- ["VV6Pavefs10apiRequest20updateProfileRequest", "request"]
+- ["VV6Pavefs10apiRequest18userProfileRequest", "init"]
+- ["VV6Pavefs10apiRequest18userProfileRequest", "request"]
+depends-nominal:
+- "VV6Pavefs10apiRequest18AddNewQueryRequest"
+- "VV6Pavefs10apiRequest19RelatedCasesRequest"
+- "VV6Pavefs10apiRequest28RetrieveClassOntologyRequest"
+- "VV6Pavefs10apiRequest23RetrieveOntologyRequest"
+- "VV6Pavefs10apiRequest26RetrieveQueryResultRequest"
+- "VV6Pavefs10apiRequest24RetrieveQuerylistRequest"
+- "VV6Pavefs10apiRequest16ViewQueryRequest"
+- "VV6Pavefs10apiRequest20addIndividualRequest"
+- "V6Pavefs9apiMethod"
+- "V6Pavefs10apiRequest"
+- "VV6Pavefs10apiRequest21changePasswordRequest"
+- "VV6Pavefs10apiRequest23deleteIndividualRequest"
+- "VV6Pavefs10apiRequest21editIndividualRequest"
+- "VV6Pavefs10apiRequest12loginRequest"
+- "VV6Pavefs10apiRequest13logoutRequest"
+- "VV6Pavefs10apiRequest19registrationRequest"
+- "VV6Pavefs10apiRequest25retrieveIndividualRequest"
+- "VV6Pavefs10apiRequest20updateProfileRequest"
+- "VV6Pavefs10apiRequest18userProfileRequest"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+interface-hash: "c86052cb15d5b5a9cab06f16ed13f1e2"

@@ -1,0 +1,582 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Reachability"
+- "connectionInfo"
+- "ServiceAPICallDelegate"
+- "ServiceAPI"
+provides-nominal:
+- "C6Pavefs12Reachability"
+- "V6Pavefs14connectionInfo"
+- "P6Pavefs22ServiceAPICallDelegate"
+- "C6Pavefs10ServiceAPI"
+provides-member:
+- ["C6Pavefs12Reachability", ""]
+- ["V6Pavefs14connectionInfo", ""]
+- ["P6Pavefs22ServiceAPICallDelegate", ""]
+- ["C6Pavefs10ServiceAPI", ""]
+provides-dynamic-lookup:
+- "connection"
+- "connection"
+- "connection"
+- "connectionDidFinishLoading"
+- "mutableData"
+- "operationName"
+- "sendRequestToServer"
+depends-top-level:
+- "Reachability"
+- !private "AF_INET"
+- "StringLiteralType"
+- !private "kSCNetworkFlagsReachable"
+- "NSObject"
+- "NSMutableData"
+- "connectionInfo"
+- !private "UInt8"
+- "ServiceAPI"
+- !private "NSMutableURLRequest"
+- !private "sa_family_t"
+- !private "print"
+- !private "sockaddr_in"
+- !private "+"
+- !private "!="
+- !private "SCNetworkReachabilityCreateWithAddress"
+- "NSURLResponse"
+- !private "NSUTF8StringEncoding"
+- "Bool"
+- "String"
+- !private "=="
+- !private "UnsafePointer"
+- !private "&&"
+- !private "withUnsafePointer"
+- !private "SCNetworkReachabilityFlags"
+- !private "BooleanLiteralType"
+- !private "sizeofValue"
+- "ServiceAPICallDelegate"
+- !private "NSString"
+- "NSURLConnection"
+- "NSData"
+- !private "NSURL"
+- !private "&"
+- "NSError"
+- !private "SCNetworkReachabilityGetFlags"
+- !private "UInt32"
+- !private "!"
+- !private "kSCNetworkFlagsConnectionRequired"
+depends-member:
+- !private ["PSs9AnyObject", "AF_INET"]
+- !private ["PSs9AnyObject", "HTTPBody"]
+- !private ["PSs9AnyObject", "HTTPMethod"]
+- ["PSs9AnyObject", "NSMutableData"]
+- !private ["PSs9AnyObject", "NSMutableURLRequest"]
+- !private ["PSs9AnyObject", "NSString"]
+- !private ["PSs9AnyObject", "NSURL"]
+- !private ["PSs9AnyObject", "NSURLConnection"]
+- !private ["PSs9AnyObject", "NSUTF8StringEncoding"]
+- !private ["PSs9AnyObject", "Reachability"]
+- !private ["PSs9AnyObject", "SCNetworkReachabilityCreateWithAddress"]
+- !private ["PSs9AnyObject", "SCNetworkReachabilityFlags"]
+- !private ["PSs9AnyObject", "SCNetworkReachabilityGetFlags"]
+- !private ["PSs9AnyObject", "String"]
+- !private ["PSs9AnyObject", "UInt32"]
+- !private ["PSs9AnyObject", "UInt8"]
+- !private ["PSs9AnyObject", "URL"]
+- !private ["PSs9AnyObject", "UnsafePointer"]
+- ["PSs9AnyObject", "apiDelegate"]
+- !private ["PSs9AnyObject", "appendData"]
+- ["PSs9AnyObject", "connection"]
+- ["PSs9AnyObject", "connectionDidFinishLoading"]
+- !private ["PSs9AnyObject", "connectionInfo"]
+- !private ["PSs9AnyObject", "dataUsingEncoding"]
+- !private ["PSs9AnyObject", "description"]
+- ["PSs9AnyObject", "init"]
+- !private ["PSs9AnyObject", "isConnectedToNetwork"]
+- !private ["PSs9AnyObject", "kSCNetworkFlagsConnectionRequired"]
+- !private ["PSs9AnyObject", "kSCNetworkFlagsReachable"]
+- !private ["PSs9AnyObject", "length"]
+- ["PSs9AnyObject", "mutableData"]
+- ["PSs9AnyObject", "operationName"]
+- !private ["PSs9AnyObject", "print"]
+- !private ["PSs9AnyObject", "sa_family_t"]
+- ["PSs9AnyObject", "sendRequestToServer"]
+- !private ["PSs9AnyObject", "sizeofValue"]
+- !private ["PSs9AnyObject", "sockaddr_in"]
+- !private ["PSs9AnyObject", "start"]
+- !private ["PSs9AnyObject", "withUnsafePointer"]
+- ["PSs9AnyObject", ""]
+- !private ["PSs23ArrayLiteralConvertible", "Element"]
+- !private ["PSs23ArrayLiteralConvertible", "RawValue"]
+- !private ["PSs23ArrayLiteralConvertible", "init"]
+- !private ["PSs23ArrayLiteralConvertible", "rawValue"]
+- !private ["PSs22BidirectionalIndexType", "init"]
+- !private ["PSs21BitwiseOperationsType", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Sb", "deinit"]
+- !private ["PSs25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs11BooleanType", "_getBuiltinLogicValue"]
+- !private ["PSs11CVarArgType", "HTTPBody"]
+- !private ["PSs11CVarArgType", "HTTPMethod"]
+- ["PSs11CVarArgType", "NSMutableData"]
+- !private ["PSs11CVarArgType", "NSMutableURLRequest"]
+- !private ["PSs11CVarArgType", "NSString"]
+- !private ["PSs11CVarArgType", "NSURL"]
+- !private ["PSs11CVarArgType", "NSURLConnection"]
+- !private ["PSs11CVarArgType", "NSUTF8StringEncoding"]
+- !private ["PSs11CVarArgType", "Reachability"]
+- !private ["PSs11CVarArgType", "String"]
+- !private ["PSs11CVarArgType", "URL"]
+- ["PSs11CVarArgType", "apiDelegate"]
+- !private ["PSs11CVarArgType", "appendData"]
+- ["PSs11CVarArgType", "connection"]
+- ["PSs11CVarArgType", "connectionDidFinishLoading"]
+- !private ["PSs11CVarArgType", "connectionInfo"]
+- !private ["PSs11CVarArgType", "dataUsingEncoding"]
+- !private ["PSs11CVarArgType", "description"]
+- ["PSs11CVarArgType", "init"]
+- !private ["PSs11CVarArgType", "length"]
+- ["PSs11CVarArgType", "mutableData"]
+- ["PSs11CVarArgType", "operationName"]
+- !private ["PSs11CVarArgType", "print"]
+- ["PSs11CVarArgType", "sendRequestToServer"]
+- !private ["PSs11CVarArgType", "start"]
+- ["PSs11CVarArgType", ""]
+- !private ["VSs9Character", "deinit"]
+- !private ["PSs10Comparable", "dataUsingEncoding"]
+- !private ["PSs10Comparable", "init"]
+- !private ["PSs28CustomDebugStringConvertible", "dataUsingEncoding"]
+- !private ["PSs28CustomDebugStringConvertible", "init"]
+- !private ["PSs23CustomStringConvertible", "HTTPBody"]
+- !private ["PSs23CustomStringConvertible", "HTTPMethod"]
+- ["PSs23CustomStringConvertible", "NSMutableData"]
+- !private ["PSs23CustomStringConvertible", "NSMutableURLRequest"]
+- !private ["PSs23CustomStringConvertible", "NSString"]
+- !private ["PSs23CustomStringConvertible", "NSURL"]
+- !private ["PSs23CustomStringConvertible", "NSURLConnection"]
+- !private ["PSs23CustomStringConvertible", "NSUTF8StringEncoding"]
+- !private ["PSs23CustomStringConvertible", "Reachability"]
+- ["PSs23CustomStringConvertible", "Some"]
+- !private ["PSs23CustomStringConvertible", "String"]
+- !private ["PSs23CustomStringConvertible", "URL"]
+- !private ["PSs23CustomStringConvertible", "_getBuiltinLogicValue"]
+- ["PSs23CustomStringConvertible", "apiDelegate"]
+- !private ["PSs23CustomStringConvertible", "appendData"]
+- ["PSs23CustomStringConvertible", "connection"]
+- ["PSs23CustomStringConvertible", "connectionDidFinishLoading"]
+- !private ["PSs23CustomStringConvertible", "connectionInfo"]
+- !private ["PSs23CustomStringConvertible", "dataUsingEncoding"]
+- !private ["PSs23CustomStringConvertible", "description"]
+- ["PSs23CustomStringConvertible", "init"]
+- !private ["PSs23CustomStringConvertible", "length"]
+- ["PSs23CustomStringConvertible", "mutableData"]
+- ["PSs23CustomStringConvertible", "operationName"]
+- !private ["PSs23CustomStringConvertible", "print"]
+- ["PSs23CustomStringConvertible", "sendRequestToServer"]
+- !private ["PSs23CustomStringConvertible", "start"]
+- ["PSs23CustomStringConvertible", ""]
+- !private ["Sd", "deinit"]
+- !private ["PSs9Equatable", "Element"]
+- !private ["PSs9Equatable", "HTTPBody"]
+- !private ["PSs9Equatable", "HTTPMethod"]
+- ["PSs9Equatable", "NSMutableData"]
+- !private ["PSs9Equatable", "NSMutableURLRequest"]
+- !private ["PSs9Equatable", "NSString"]
+- !private ["PSs9Equatable", "NSURL"]
+- !private ["PSs9Equatable", "NSURLConnection"]
+- !private ["PSs9Equatable", "NSUTF8StringEncoding"]
+- !private ["PSs9Equatable", "RawValue"]
+- !private ["PSs9Equatable", "Reachability"]
+- !private ["PSs9Equatable", "String"]
+- !private ["PSs9Equatable", "URL"]
+- !private ["PSs9Equatable", "_getBuiltinLogicValue"]
+- ["PSs9Equatable", "apiDelegate"]
+- !private ["PSs9Equatable", "appendData"]
+- ["PSs9Equatable", "connection"]
+- ["PSs9Equatable", "connectionDidFinishLoading"]
+- !private ["PSs9Equatable", "connectionInfo"]
+- !private ["PSs9Equatable", "dataUsingEncoding"]
+- !private ["PSs9Equatable", "description"]
+- ["PSs9Equatable", "init"]
+- !private ["PSs9Equatable", "length"]
+- ["PSs9Equatable", "mutableData"]
+- ["PSs9Equatable", "operationName"]
+- !private ["PSs9Equatable", "print"]
+- !private ["PSs9Equatable", "rawValue"]
+- ["PSs9Equatable", "sendRequestToServer"]
+- !private ["PSs9Equatable", "start"]
+- ["PSs9Equatable", ""]
+- !private ["PSs9ErrorType", "description"]
+- !private ["PSs41ExtendedGraphemeClusterLiteralConvertible", "dataUsingEncoding"]
+- !private ["PSs41ExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["Sf", "deinit"]
+- !private ["PSs16ForwardIndexType", "init"]
+- !private ["PSs8Hashable", "HTTPBody"]
+- !private ["PSs8Hashable", "HTTPMethod"]
+- ["PSs8Hashable", "NSMutableData"]
+- !private ["PSs8Hashable", "NSMutableURLRequest"]
+- !private ["PSs8Hashable", "NSString"]
+- !private ["PSs8Hashable", "NSURL"]
+- !private ["PSs8Hashable", "NSURLConnection"]
+- !private ["PSs8Hashable", "NSUTF8StringEncoding"]
+- !private ["PSs8Hashable", "Reachability"]
+- !private ["PSs8Hashable", "String"]
+- !private ["PSs8Hashable", "URL"]
+- !private ["PSs8Hashable", "_getBuiltinLogicValue"]
+- ["PSs8Hashable", "apiDelegate"]
+- !private ["PSs8Hashable", "appendData"]
+- ["PSs8Hashable", "connection"]
+- ["PSs8Hashable", "connectionDidFinishLoading"]
+- !private ["PSs8Hashable", "connectionInfo"]
+- !private ["PSs8Hashable", "dataUsingEncoding"]
+- !private ["PSs8Hashable", "description"]
+- ["PSs8Hashable", "init"]
+- !private ["PSs8Hashable", "length"]
+- ["PSs8Hashable", "mutableData"]
+- ["PSs8Hashable", "operationName"]
+- !private ["PSs8Hashable", "print"]
+- ["PSs8Hashable", "sendRequestToServer"]
+- !private ["PSs8Hashable", "start"]
+- ["PSs8Hashable", ""]
+- ["SQ", "Some"]
+- !private ["SQ", "deinit"]
+- !private ["Si", "deinit"]
+- !private ["VSs5Int16", "deinit"]
+- !private ["VSs5Int32", "deinit"]
+- !private ["VSs5Int64", "deinit"]
+- !private ["VSs4Int8", "deinit"]
+- !private ["PSs21IntegerArithmeticType", "init"]
+- !private ["PSs25IntegerLiteralConvertible", "init"]
+- !private ["PSs11IntegerType", "init"]
+- !private ["PSs14MirrorPathType", "dataUsingEncoding"]
+- !private ["PSs14MirrorPathType", "init"]
+- !private ["PSo8NSCoding", "HTTPBody"]
+- !private ["PSo8NSCoding", "HTTPMethod"]
+- !private ["PSo8NSCoding", "URL"]
+- !private ["PSo8NSCoding", "appendData"]
+- !private ["PSo8NSCoding", "dataUsingEncoding"]
+- !private ["PSo8NSCoding", "description"]
+- ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "length"]
+- !private ["PSo9NSCopying", "HTTPBody"]
+- !private ["PSo9NSCopying", "HTTPMethod"]
+- !private ["PSo9NSCopying", "URL"]
+- !private ["PSo9NSCopying", "appendData"]
+- !private ["PSo9NSCopying", "dataUsingEncoding"]
+- !private ["PSo9NSCopying", "description"]
+- ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "length"]
+- !private ["CSo6NSData", "appendData"]
+- ["CSo6NSData", "init"]
+- !private ["CSo6NSData", "length"]
+- !private ["CSo7NSError", "description"]
+- !private ["PSo16NSMutableCopying", "HTTPBody"]
+- !private ["PSo16NSMutableCopying", "HTTPMethod"]
+- !private ["PSo16NSMutableCopying", "URL"]
+- !private ["PSo16NSMutableCopying", "appendData"]
+- !private ["PSo16NSMutableCopying", "dataUsingEncoding"]
+- ["PSo16NSMutableCopying", "init"]
+- !private ["PSo16NSMutableCopying", "length"]
+- !private ["CSo13NSMutableData", "appendData"]
+- ["CSo13NSMutableData", "init"]
+- !private ["CSo13NSMutableData", "length"]
+- !private ["CSo19NSMutableURLRequest", "HTTPBody"]
+- !private ["CSo19NSMutableURLRequest", "HTTPMethod"]
+- !private ["CSo19NSMutableURLRequest", "URL"]
+- !private ["CSo19NSMutableURLRequest", "init"]
+- !private ["CSo8NSObject", "HTTPBody"]
+- !private ["CSo8NSObject", "HTTPMethod"]
+- ["CSo8NSObject", "NSData"]
+- ["CSo8NSObject", "NSError"]
+- ["CSo8NSObject", "NSMutableData"]
+- !private ["CSo8NSObject", "NSMutableURLRequest"]
+- !private ["CSo8NSObject", "NSString"]
+- !private ["CSo8NSObject", "NSURL"]
+- ["CSo8NSObject", "NSURLConnection"]
+- ["CSo8NSObject", "NSURLResponse"]
+- !private ["CSo8NSObject", "NSUTF8StringEncoding"]
+- !private ["CSo8NSObject", "Reachability"]
+- ["CSo8NSObject", "ServiceAPICallDelegate"]
+- ["CSo8NSObject", "String"]
+- !private ["CSo8NSObject", "URL"]
+- ["CSo8NSObject", "apiDelegate"]
+- !private ["CSo8NSObject", "appendData"]
+- ["CSo8NSObject", "connection"]
+- ["CSo8NSObject", "connectionDidFinishLoading"]
+- !private ["CSo8NSObject", "connectionInfo"]
+- !private ["CSo8NSObject", "dataUsingEncoding"]
+- !private ["CSo8NSObject", "description"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "length"]
+- ["CSo8NSObject", "mutableData"]
+- ["CSo8NSObject", "operationName"]
+- !private ["CSo8NSObject", "print"]
+- ["CSo8NSObject", "sendRequestToServer"]
+- !private ["CSo8NSObject", "start"]
+- ["CSo8NSObject", ""]
+- !private ["PSo16NSObjectProtocol", "HTTPBody"]
+- !private ["PSo16NSObjectProtocol", "HTTPMethod"]
+- ["PSo16NSObjectProtocol", "NSMutableData"]
+- !private ["PSo16NSObjectProtocol", "NSMutableURLRequest"]
+- !private ["PSo16NSObjectProtocol", "NSString"]
+- !private ["PSo16NSObjectProtocol", "NSURL"]
+- !private ["PSo16NSObjectProtocol", "NSURLConnection"]
+- !private ["PSo16NSObjectProtocol", "NSUTF8StringEncoding"]
+- !private ["PSo16NSObjectProtocol", "Reachability"]
+- !private ["PSo16NSObjectProtocol", "String"]
+- !private ["PSo16NSObjectProtocol", "URL"]
+- ["PSo16NSObjectProtocol", "apiDelegate"]
+- !private ["PSo16NSObjectProtocol", "appendData"]
+- ["PSo16NSObjectProtocol", "connection"]
+- ["PSo16NSObjectProtocol", "connectionDidFinishLoading"]
+- !private ["PSo16NSObjectProtocol", "connectionInfo"]
+- !private ["PSo16NSObjectProtocol", "dataUsingEncoding"]
+- !private ["PSo16NSObjectProtocol", "description"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "length"]
+- ["PSo16NSObjectProtocol", "mutableData"]
+- ["PSo16NSObjectProtocol", "operationName"]
+- !private ["PSo16NSObjectProtocol", "print"]
+- ["PSo16NSObjectProtocol", "sendRequestToServer"]
+- !private ["PSo16NSObjectProtocol", "start"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "HTTPBody"]
+- !private ["PSo14NSSecureCoding", "HTTPMethod"]
+- !private ["PSo14NSSecureCoding", "URL"]
+- !private ["PSo14NSSecureCoding", "appendData"]
+- !private ["PSo14NSSecureCoding", "dataUsingEncoding"]
+- !private ["PSo14NSSecureCoding", "description"]
+- ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "length"]
+- !private ["CSo8NSString", "dataUsingEncoding"]
+- !private ["CSo8NSString", "deinit"]
+- !private ["CSo8NSString", "init"]
+- !private ["CSo5NSURL", "init"]
+- !private ["CSo15NSURLConnection", "init"]
+- !private ["CSo15NSURLConnection", "start"]
+- !private ["CSo12NSURLRequest", "HTTPBody"]
+- !private ["CSo12NSURLRequest", "HTTPMethod"]
+- !private ["CSo12NSURLRequest", "URL"]
+- !private ["CSo12NSURLRequest", "init"]
+- ["PSs21NilLiteralConvertible", "Some"]
+- !private ["PSs21NilLiteralConvertible", "init"]
+- !private ["PSs13OptionSetType", "Element"]
+- !private ["PSs13OptionSetType", "RawValue"]
+- !private ["PSs13OptionSetType", "init"]
+- !private ["PSs13OptionSetType", "rawValue"]
+- !private ["Sq", "deinit"]
+- !private ["PSs16OutputStreamType", "dataUsingEncoding"]
+- !private ["PSs16OutputStreamType", "init"]
+- !private ["PSs21RandomAccessIndexType", "init"]
+- !private ["PSs16RawRepresentable", "Element"]
+- !private ["PSs16RawRepresentable", "RawValue"]
+- !private ["PSs16RawRepresentable", "init"]
+- !private ["PSs16RawRepresentable", "rawValue"]
+- !private ["C6Pavefs12Reachability", "AF_INET"]
+- ["C6Pavefs12Reachability", "Bool"]
+- !private ["C6Pavefs12Reachability", "SCNetworkReachabilityCreateWithAddress"]
+- !private ["C6Pavefs12Reachability", "SCNetworkReachabilityFlags"]
+- !private ["C6Pavefs12Reachability", "SCNetworkReachabilityGetFlags"]
+- !private ["C6Pavefs12Reachability", "UInt32"]
+- !private ["C6Pavefs12Reachability", "UInt8"]
+- !private ["C6Pavefs12Reachability", "UnsafePointer"]
+- ["C6Pavefs12Reachability", "deinit"]
+- ["C6Pavefs12Reachability", "init"]
+- ["C6Pavefs12Reachability", "isConnectedToNetwork"]
+- !private ["C6Pavefs12Reachability", "kSCNetworkFlagsConnectionRequired"]
+- !private ["C6Pavefs12Reachability", "kSCNetworkFlagsReachable"]
+- !private ["C6Pavefs12Reachability", "sa_family_t"]
+- !private ["C6Pavefs12Reachability", "sizeofValue"]
+- !private ["C6Pavefs12Reachability", "sockaddr_in"]
+- !private ["C6Pavefs12Reachability", "withUnsafePointer"]
+- !private ["VSC26SCNetworkReachabilityFlags", "Element"]
+- !private ["VSC26SCNetworkReachabilityFlags", "RawValue"]
+- !private ["VSC26SCNetworkReachabilityFlags", "init"]
+- !private ["VSC26SCNetworkReachabilityFlags", "rawValue"]
+- ["C6Pavefs10ServiceAPI", "NSData"]
+- ["C6Pavefs10ServiceAPI", "NSError"]
+- ["C6Pavefs10ServiceAPI", "NSMutableData"]
+- !private ["C6Pavefs10ServiceAPI", "NSMutableURLRequest"]
+- !private ["C6Pavefs10ServiceAPI", "NSString"]
+- !private ["C6Pavefs10ServiceAPI", "NSURL"]
+- ["C6Pavefs10ServiceAPI", "NSURLConnection"]
+- ["C6Pavefs10ServiceAPI", "NSURLResponse"]
+- !private ["C6Pavefs10ServiceAPI", "NSUTF8StringEncoding"]
+- !private ["C6Pavefs10ServiceAPI", "Reachability"]
+- ["C6Pavefs10ServiceAPI", "ServiceAPICallDelegate"]
+- ["C6Pavefs10ServiceAPI", "String"]
+- ["C6Pavefs10ServiceAPI", "apiDelegate"]
+- ["C6Pavefs10ServiceAPI", "connection"]
+- ["C6Pavefs10ServiceAPI", "connectionDidFinishLoading"]
+- !private ["C6Pavefs10ServiceAPI", "connectionInfo"]
+- ["C6Pavefs10ServiceAPI", "deinit"]
+- ["C6Pavefs10ServiceAPI", "init"]
+- ["C6Pavefs10ServiceAPI", "mutableData"]
+- ["C6Pavefs10ServiceAPI", "operationName"]
+- !private ["C6Pavefs10ServiceAPI", "print"]
+- ["C6Pavefs10ServiceAPI", "sendRequestToServer"]
+- ["P6Pavefs22ServiceAPICallDelegate", "String"]
+- ["P6Pavefs22ServiceAPICallDelegate", "serviceCallDidFail"]
+- ["P6Pavefs22ServiceAPICallDelegate", "serviceCallDidFinish"]
+- !private ["PSs14SetAlgebraType", "Element"]
+- !private ["PSs14SetAlgebraType", "RawValue"]
+- !private ["PSs14SetAlgebraType", "init"]
+- !private ["PSs14SetAlgebraType", "rawValue"]
+- !private ["PSs10Streamable", "dataUsingEncoding"]
+- !private ["PSs10Streamable", "init"]
+- !private ["PSs10Strideable", "init"]
+- !private ["SS", "dataUsingEncoding"]
+- !private ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["PSs30StringInterpolationConvertible", "dataUsingEncoding"]
+- !private ["PSs30StringInterpolationConvertible", "init"]
+- !private ["PSs24StringLiteralConvertible", "dataUsingEncoding"]
+- !private ["PSs24StringLiteralConvertible", "init"]
+- !private ["Su", "deinit"]
+- !private ["VSs6UInt16", "deinit"]
+- !private ["VSs6UInt32", "deinit"]
+- !private ["VSs6UInt32", "init"]
+- !private ["VSs6UInt64", "deinit"]
+- !private ["VSs5UInt8", "deinit"]
+- !private ["VSs5UInt8", "init"]
+- !private ["Sc", "deinit"]
+- !private ["PSs31UnicodeScalarLiteralConvertible", "dataUsingEncoding"]
+- !private ["PSs31UnicodeScalarLiteralConvertible", "init"]
+- !private ["VSs13UnsafePointer", "init"]
+- !private ["PSs19UnsignedIntegerType", "init"]
+- !private ["PSs33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible", "dataUsingEncoding"]
+- !private ["PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["PSs33_BuiltinIntegerLiteralConvertible", "init"]
+- !private ["PSs32_BuiltinStringLiteralConvertible", "dataUsingEncoding"]
+- !private ["PSs32_BuiltinStringLiteralConvertible", "init"]
+- !private ["PSs37_BuiltinUTF16StringLiteralConvertible", "dataUsingEncoding"]
+- !private ["PSs37_BuiltinUTF16StringLiteralConvertible", "init"]
+- !private ["PSs39_BuiltinUnicodeScalarLiteralConvertible", "dataUsingEncoding"]
+- !private ["PSs39_BuiltinUnicodeScalarLiteralConvertible", "init"]
+- !private ["PSs16_CocoaStringType", "dataUsingEncoding"]
+- !private ["PSs16_CocoaStringType", "init"]
+- !private ["PSs28_DisallowMixedSignArithmetic", "init"]
+- !private ["PSs32_FileReferenceLiteralConvertible", "init"]
+- !private ["PSs14_Incrementable", "init"]
+- !private ["PSs22_IntegerArithmeticType", "init"]
+- !private ["PSs12_IntegerType", "init"]
+- ["PSs21_ObjectiveCBridgeable", "Some"]
+- !private ["PSs21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["PSs21_ObjectiveCBridgeable", "dataUsingEncoding"]
+- !private ["PSs21_ObjectiveCBridgeable", "init"]
+- !private ["PSs12_PointerType", "init"]
+- !private ["PSs22_RandomAccessAmbiguity", "init"]
+- ["PSs12_Reflectable", "Some"]
+- !private ["PSs12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["PSs12_Reflectable", "dataUsingEncoding"]
+- !private ["PSs12_Reflectable", "init"]
+- !private ["PSs11_Strideable", "init"]
+- !private ["PSs18_StringElementType", "init"]
+- ["V6Pavefs14connectionInfo", "HTTP_CONTENT_LENGTH"]
+- ["V6Pavefs14connectionInfo", "HTTP_CONTENT_TYPE"]
+- ["V6Pavefs14connectionInfo", "HTTP_HEADER_ENCODING"]
+- ["V6Pavefs14connectionInfo", "HTTP_METHOD"]
+- ["V6Pavefs14connectionInfo", "HTTP_SOAPACTION_TYPE"]
+- ["V6Pavefs14connectionInfo", "WEBERVICE_DEVELOPMENT_SERVER_URL"]
+- ["V6Pavefs14connectionInfo", "WEBERVICE_PRODUCTION_SERVER_URL"]
+- ["V6Pavefs14connectionInfo", "init"]
+- !private ["VSC11sockaddr_in", "init"]
+- !private ["VSC11sockaddr_in", "sin_family"]
+- !private ["VSC11sockaddr_in", "sin_len"]
+depends-nominal:
+- "PSs9AnyObject"
+- !private "PSs23ArrayLiteralConvertible"
+- !private "PSs22BidirectionalIndexType"
+- !private "PSs21BitwiseOperationsType"
+- !private "Sb"
+- !private "PSs25BooleanLiteralConvertible"
+- !private "PSs11BooleanType"
+- "PSs11CVarArgType"
+- !private "VSs9Character"
+- !private "PSs10Comparable"
+- !private "PSs28CustomDebugStringConvertible"
+- "PSs23CustomStringConvertible"
+- !private "Sd"
+- "PSs9Equatable"
+- !private "PSs9ErrorType"
+- !private "PSs41ExtendedGraphemeClusterLiteralConvertible"
+- !private "Sf"
+- !private "PSs16ForwardIndexType"
+- "PSs8Hashable"
+- "SQ"
+- !private "Si"
+- !private "VSs5Int16"
+- !private "VSs5Int32"
+- !private "VSs5Int64"
+- !private "VSs4Int8"
+- !private "PSs21IntegerArithmeticType"
+- !private "PSs25IntegerLiteralConvertible"
+- !private "PSs11IntegerType"
+- !private "PSs14MirrorPathType"
+- "PSo8NSCoding"
+- "PSo9NSCopying"
+- "CSo6NSData"
+- !private "CSo7NSError"
+- "PSo16NSMutableCopying"
+- "CSo13NSMutableData"
+- !private "CSo19NSMutableURLRequest"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "CSo5NSURL"
+- !private "CSo15NSURLConnection"
+- !private "CSo12NSURLRequest"
+- "PSs21NilLiteralConvertible"
+- !private "PSs13OptionSetType"
+- !private "Sq"
+- !private "PSs16OutputStreamType"
+- !private "PSs21RandomAccessIndexType"
+- !private "PSs16RawRepresentable"
+- "C6Pavefs12Reachability"
+- !private "VSC26SCNetworkReachabilityFlags"
+- "C6Pavefs10ServiceAPI"
+- "P6Pavefs22ServiceAPICallDelegate"
+- !private "PSs14SetAlgebraType"
+- !private "PSs10Streamable"
+- !private "PSs10Strideable"
+- !private "SS"
+- !private "PSs30StringInterpolationConvertible"
+- !private "PSs24StringLiteralConvertible"
+- !private "Su"
+- !private "VSs6UInt16"
+- !private "VSs6UInt32"
+- !private "VSs6UInt64"
+- !private "VSs5UInt8"
+- !private "Sc"
+- !private "PSs31UnicodeScalarLiteralConvertible"
+- !private "VSs13UnsafePointer"
+- !private "PSs19UnsignedIntegerType"
+- !private "PSs33_BuiltinBooleanLiteralConvertible"
+- !private "PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible"
+- !private "PSs33_BuiltinIntegerLiteralConvertible"
+- !private "PSs32_BuiltinStringLiteralConvertible"
+- !private "PSs37_BuiltinUTF16StringLiteralConvertible"
+- !private "PSs39_BuiltinUnicodeScalarLiteralConvertible"
+- !private "PSs16_CocoaStringType"
+- !private "PSs28_DisallowMixedSignArithmetic"
+- !private "PSs32_FileReferenceLiteralConvertible"
+- !private "PSs14_Incrementable"
+- !private "PSs22_IntegerArithmeticType"
+- !private "PSs12_IntegerType"
+- "PSs21_ObjectiveCBridgeable"
+- !private "PSs12_PointerType"
+- !private "PSs22_RandomAccessAmbiguity"
+- "PSs12_Reflectable"
+- !private "PSs11_Strideable"
+- !private "PSs18_StringElementType"
+- "V6Pavefs14connectionInfo"
+- !private "VSC11sockaddr_in"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+interface-hash: "8957c9fcb1f84fb66fc550eab7d8e541"

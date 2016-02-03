@@ -1,0 +1,188 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Ontology"
+provides-nominal:
+- "C6Pavefs8Ontology"
+provides-member:
+- ["C6Pavefs8Ontology", ""]
+provides-dynamic-lookup:
+- "descrEN"
+- "order"
+- "labelGR"
+- "siblingNodes"
+- "ontologyId"
+- "nodeId"
+- "parentNodes"
+- "labelEN"
+- "fieldPrefix"
+- "descrGR"
+- "children"
+depends-top-level:
+- "Ontology"
+- !private "StringLiteralType"
+- "NSObject"
+- "String"
+- "Array"
+- "AnyObject"
+depends-member:
+- ["PSs9AnyObject", "children"]
+- ["PSs9AnyObject", "descrEN"]
+- ["PSs9AnyObject", "descrGR"]
+- ["PSs9AnyObject", "fieldPrefix"]
+- ["PSs9AnyObject", "init"]
+- ["PSs9AnyObject", "labelEN"]
+- ["PSs9AnyObject", "labelGR"]
+- ["PSs9AnyObject", "nodeId"]
+- ["PSs9AnyObject", "ontologyId"]
+- ["PSs9AnyObject", "order"]
+- ["PSs9AnyObject", "parentNodes"]
+- ["PSs9AnyObject", "siblingNodes"]
+- ["PSs9AnyObject", ""]
+- !private ["Sa", "Element"]
+- !private ["PSs23ArrayLiteralConvertible", "Element"]
+- ["PSs11CVarArgType", "children"]
+- ["PSs11CVarArgType", "descrEN"]
+- ["PSs11CVarArgType", "descrGR"]
+- ["PSs11CVarArgType", "fieldPrefix"]
+- ["PSs11CVarArgType", "init"]
+- ["PSs11CVarArgType", "labelEN"]
+- ["PSs11CVarArgType", "labelGR"]
+- ["PSs11CVarArgType", "nodeId"]
+- ["PSs11CVarArgType", "ontologyId"]
+- ["PSs11CVarArgType", "order"]
+- ["PSs11CVarArgType", "parentNodes"]
+- ["PSs11CVarArgType", "siblingNodes"]
+- ["PSs11CVarArgType", ""]
+- !private ["PSs14CollectionType", "Element"]
+- !private ["PSs28CustomDebugStringConvertible", "Element"]
+- !private ["PSs23CustomStringConvertible", "Element"]
+- ["PSs23CustomStringConvertible", "children"]
+- ["PSs23CustomStringConvertible", "descrEN"]
+- ["PSs23CustomStringConvertible", "descrGR"]
+- ["PSs23CustomStringConvertible", "fieldPrefix"]
+- ["PSs23CustomStringConvertible", "init"]
+- ["PSs23CustomStringConvertible", "labelEN"]
+- ["PSs23CustomStringConvertible", "labelGR"]
+- ["PSs23CustomStringConvertible", "nodeId"]
+- ["PSs23CustomStringConvertible", "ontologyId"]
+- ["PSs23CustomStringConvertible", "order"]
+- ["PSs23CustomStringConvertible", "parentNodes"]
+- ["PSs23CustomStringConvertible", "siblingNodes"]
+- ["PSs23CustomStringConvertible", ""]
+- ["PSs9Equatable", "children"]
+- ["PSs9Equatable", "descrEN"]
+- ["PSs9Equatable", "descrGR"]
+- ["PSs9Equatable", "fieldPrefix"]
+- ["PSs9Equatable", "init"]
+- ["PSs9Equatable", "labelEN"]
+- ["PSs9Equatable", "labelGR"]
+- ["PSs9Equatable", "nodeId"]
+- ["PSs9Equatable", "ontologyId"]
+- ["PSs9Equatable", "order"]
+- ["PSs9Equatable", "parentNodes"]
+- ["PSs9Equatable", "siblingNodes"]
+- ["PSs9Equatable", ""]
+- ["PSs8Hashable", "children"]
+- ["PSs8Hashable", "descrEN"]
+- ["PSs8Hashable", "descrGR"]
+- ["PSs8Hashable", "fieldPrefix"]
+- ["PSs8Hashable", "init"]
+- ["PSs8Hashable", "labelEN"]
+- ["PSs8Hashable", "labelGR"]
+- ["PSs8Hashable", "nodeId"]
+- ["PSs8Hashable", "ontologyId"]
+- ["PSs8Hashable", "order"]
+- ["PSs8Hashable", "parentNodes"]
+- ["PSs8Hashable", "siblingNodes"]
+- ["PSs8Hashable", ""]
+- !private ["SQ", "deinit"]
+- !private ["PSs9Indexable", "Element"]
+- !private ["PSs21MutableCollectionType", "Element"]
+- !private ["PSs16MutableIndexable", "Element"]
+- !private ["PSs16MutableSliceable", "Element"]
+- ["CSo8NSObject", "AnyObject"]
+- ["CSo8NSObject", "Array"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "children"]
+- ["CSo8NSObject", "descrEN"]
+- ["CSo8NSObject", "descrGR"]
+- ["CSo8NSObject", "fieldPrefix"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "labelEN"]
+- ["CSo8NSObject", "labelGR"]
+- ["CSo8NSObject", "nodeId"]
+- ["CSo8NSObject", "ontologyId"]
+- ["CSo8NSObject", "order"]
+- ["CSo8NSObject", "parentNodes"]
+- ["CSo8NSObject", "siblingNodes"]
+- ["CSo8NSObject", ""]
+- ["PSo16NSObjectProtocol", "children"]
+- ["PSo16NSObjectProtocol", "descrEN"]
+- ["PSo16NSObjectProtocol", "descrGR"]
+- ["PSo16NSObjectProtocol", "fieldPrefix"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "labelEN"]
+- ["PSo16NSObjectProtocol", "labelGR"]
+- ["PSo16NSObjectProtocol", "nodeId"]
+- ["PSo16NSObjectProtocol", "ontologyId"]
+- ["PSo16NSObjectProtocol", "order"]
+- ["PSo16NSObjectProtocol", "parentNodes"]
+- ["PSo16NSObjectProtocol", "siblingNodes"]
+- ["PSo16NSObjectProtocol", ""]
+- ["C6Pavefs8Ontology", "AnyObject"]
+- ["C6Pavefs8Ontology", "Array"]
+- ["C6Pavefs8Ontology", "String"]
+- ["C6Pavefs8Ontology", "children"]
+- ["C6Pavefs8Ontology", "deinit"]
+- ["C6Pavefs8Ontology", "descrEN"]
+- ["C6Pavefs8Ontology", "descrGR"]
+- ["C6Pavefs8Ontology", "fieldPrefix"]
+- ["C6Pavefs8Ontology", "init"]
+- ["C6Pavefs8Ontology", "labelEN"]
+- ["C6Pavefs8Ontology", "labelGR"]
+- ["C6Pavefs8Ontology", "nodeId"]
+- ["C6Pavefs8Ontology", "ontologyId"]
+- ["C6Pavefs8Ontology", "order"]
+- ["C6Pavefs8Ontology", "parentNodes"]
+- ["C6Pavefs8Ontology", "siblingNodes"]
+- !private ["PSs30RangeReplaceableCollectionType", "Element"]
+- !private ["PSs12SequenceType", "Element"]
+- !private ["PSs10_ArrayType", "Element"]
+- !private ["PSs24_DestructorSafeContainer", "Element"]
+- !private ["PSs21_ObjectiveCBridgeable", "Element"]
+- !private ["PSs12_Reflectable", "Element"]
+depends-nominal:
+- "PSs9AnyObject"
+- !private "Sa"
+- !private "PSs23ArrayLiteralConvertible"
+- "PSs11CVarArgType"
+- !private "PSs14CollectionType"
+- !private "PSs28CustomDebugStringConvertible"
+- "PSs23CustomStringConvertible"
+- "PSs9Equatable"
+- "PSs8Hashable"
+- !private "SQ"
+- !private "PSs9Indexable"
+- !private "PSs21MutableCollectionType"
+- !private "PSs16MutableIndexable"
+- !private "PSs16MutableSliceable"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "C6Pavefs8Ontology"
+- !private "PSs30RangeReplaceableCollectionType"
+- !private "PSs12SequenceType"
+- !private "PSs10_ArrayType"
+- !private "PSs24_DestructorSafeContainer"
+- !private "PSs21_ObjectiveCBridgeable"
+- !private "PSs12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+interface-hash: "6a1b8a1644e4301ed0e76f290b57e45d"

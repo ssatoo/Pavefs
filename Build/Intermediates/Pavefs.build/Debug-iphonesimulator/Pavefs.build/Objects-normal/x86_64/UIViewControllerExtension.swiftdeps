@@ -1,0 +1,216 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["CSo16UIViewController", ""]
+- ["CSo16UIViewController", "setNavigationBarItem"]
+- ["CSo16UIViewController", "removeNavigationBarItem"]
+provides-dynamic-lookup:
+- "removeNavigationBarItem"
+- "setNavigationBarItem"
+depends-top-level:
+- "UIViewController"
+- !private "UIImage"
+- !private "StringLiteralType"
+depends-member:
+- !private ["PSs9AnyObject", "UIImage"]
+- !private ["PSs9AnyObject", "addLeftBarButtonWithImage"]
+- !private ["PSs9AnyObject", "addLeftGestures"]
+- !private ["PSs9AnyObject", "init"]
+- !private ["PSs9AnyObject", "leftBarButtonItem"]
+- !private ["PSs9AnyObject", "navigationItem"]
+- !private ["PSs9AnyObject", "removeLeftGestures"]
+- ["PSs9AnyObject", "removeNavigationBarItem"]
+- !private ["PSs9AnyObject", "removeRightGestures"]
+- !private ["PSs9AnyObject", "rightBarButtonItem"]
+- ["PSs9AnyObject", "setNavigationBarItem"]
+- !private ["PSs9AnyObject", "slideMenuController"]
+- !private ["PSs11CVarArgType", "UIImage"]
+- !private ["PSs11CVarArgType", "addLeftBarButtonWithImage"]
+- !private ["PSs11CVarArgType", "addLeftGestures"]
+- !private ["PSs11CVarArgType", "init"]
+- !private ["PSs11CVarArgType", "leftBarButtonItem"]
+- !private ["PSs11CVarArgType", "navigationItem"]
+- !private ["PSs11CVarArgType", "removeLeftGestures"]
+- ["PSs11CVarArgType", "removeNavigationBarItem"]
+- !private ["PSs11CVarArgType", "removeRightGestures"]
+- !private ["PSs11CVarArgType", "rightBarButtonItem"]
+- ["PSs11CVarArgType", "setNavigationBarItem"]
+- !private ["PSs11CVarArgType", "slideMenuController"]
+- !private ["PSs23CustomStringConvertible", "UIImage"]
+- !private ["PSs23CustomStringConvertible", "addLeftBarButtonWithImage"]
+- !private ["PSs23CustomStringConvertible", "addLeftGestures"]
+- !private ["PSs23CustomStringConvertible", "init"]
+- !private ["PSs23CustomStringConvertible", "leftBarButtonItem"]
+- !private ["PSs23CustomStringConvertible", "navigationItem"]
+- !private ["PSs23CustomStringConvertible", "removeLeftGestures"]
+- ["PSs23CustomStringConvertible", "removeNavigationBarItem"]
+- !private ["PSs23CustomStringConvertible", "removeRightGestures"]
+- !private ["PSs23CustomStringConvertible", "rightBarButtonItem"]
+- ["PSs23CustomStringConvertible", "setNavigationBarItem"]
+- !private ["PSs23CustomStringConvertible", "slideMenuController"]
+- !private ["PSs9Equatable", "UIImage"]
+- !private ["PSs9Equatable", "addLeftBarButtonWithImage"]
+- !private ["PSs9Equatable", "addLeftGestures"]
+- !private ["PSs9Equatable", "init"]
+- !private ["PSs9Equatable", "leftBarButtonItem"]
+- !private ["PSs9Equatable", "navigationItem"]
+- !private ["PSs9Equatable", "removeLeftGestures"]
+- ["PSs9Equatable", "removeNavigationBarItem"]
+- !private ["PSs9Equatable", "removeRightGestures"]
+- !private ["PSs9Equatable", "rightBarButtonItem"]
+- ["PSs9Equatable", "setNavigationBarItem"]
+- !private ["PSs9Equatable", "slideMenuController"]
+- !private ["PSs8Hashable", "UIImage"]
+- !private ["PSs8Hashable", "addLeftBarButtonWithImage"]
+- !private ["PSs8Hashable", "addLeftGestures"]
+- !private ["PSs8Hashable", "init"]
+- !private ["PSs8Hashable", "leftBarButtonItem"]
+- !private ["PSs8Hashable", "navigationItem"]
+- !private ["PSs8Hashable", "removeLeftGestures"]
+- ["PSs8Hashable", "removeNavigationBarItem"]
+- !private ["PSs8Hashable", "removeRightGestures"]
+- !private ["PSs8Hashable", "rightBarButtonItem"]
+- ["PSs8Hashable", "setNavigationBarItem"]
+- !private ["PSs8Hashable", "slideMenuController"]
+- !private ["PSo8NSCoding", "UIImage"]
+- !private ["PSo8NSCoding", "addLeftBarButtonWithImage"]
+- !private ["PSo8NSCoding", "addLeftGestures"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "leftBarButtonItem"]
+- !private ["PSo8NSCoding", "navigationItem"]
+- !private ["PSo8NSCoding", "removeLeftGestures"]
+- !private ["PSo8NSCoding", "removeRightGestures"]
+- !private ["PSo8NSCoding", "rightBarButtonItem"]
+- !private ["PSo8NSCoding", "slideMenuController"]
+- !private ["PSo26NSExtensionRequestHandling", "UIImage"]
+- !private ["PSo26NSExtensionRequestHandling", "addLeftBarButtonWithImage"]
+- !private ["PSo26NSExtensionRequestHandling", "addLeftGestures"]
+- !private ["PSo26NSExtensionRequestHandling", "navigationItem"]
+- !private ["PSo26NSExtensionRequestHandling", "removeLeftGestures"]
+- !private ["PSo26NSExtensionRequestHandling", "removeRightGestures"]
+- !private ["PSo26NSExtensionRequestHandling", "slideMenuController"]
+- !private ["CSo8NSObject", "UIImage"]
+- !private ["CSo8NSObject", "addLeftBarButtonWithImage"]
+- !private ["CSo8NSObject", "addLeftGestures"]
+- !private ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "leftBarButtonItem"]
+- !private ["CSo8NSObject", "navigationItem"]
+- !private ["CSo8NSObject", "removeLeftGestures"]
+- ["CSo8NSObject", "removeNavigationBarItem"]
+- !private ["CSo8NSObject", "removeRightGestures"]
+- !private ["CSo8NSObject", "rightBarButtonItem"]
+- ["CSo8NSObject", "setNavigationBarItem"]
+- !private ["CSo8NSObject", "slideMenuController"]
+- !private ["PSo16NSObjectProtocol", "UIImage"]
+- !private ["PSo16NSObjectProtocol", "addLeftBarButtonWithImage"]
+- !private ["PSo16NSObjectProtocol", "addLeftGestures"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "leftBarButtonItem"]
+- !private ["PSo16NSObjectProtocol", "navigationItem"]
+- !private ["PSo16NSObjectProtocol", "removeLeftGestures"]
+- ["PSo16NSObjectProtocol", "removeNavigationBarItem"]
+- !private ["PSo16NSObjectProtocol", "removeRightGestures"]
+- !private ["PSo16NSObjectProtocol", "rightBarButtonItem"]
+- ["PSo16NSObjectProtocol", "setNavigationBarItem"]
+- !private ["PSo16NSObjectProtocol", "slideMenuController"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["C6Pavefs19SlideMenuController", "addLeftGestures"]
+- !private ["C6Pavefs19SlideMenuController", "removeLeftGestures"]
+- !private ["C6Pavefs19SlideMenuController", "removeRightGestures"]
+- !private ["PSo29UIAccessibilityIdentification", "init"]
+- !private ["PSo21UIAppearanceContainer", "UIImage"]
+- !private ["PSo21UIAppearanceContainer", "addLeftBarButtonWithImage"]
+- !private ["PSo21UIAppearanceContainer", "addLeftGestures"]
+- !private ["PSo21UIAppearanceContainer", "navigationItem"]
+- !private ["PSo21UIAppearanceContainer", "removeLeftGestures"]
+- !private ["PSo21UIAppearanceContainer", "removeRightGestures"]
+- !private ["PSo21UIAppearanceContainer", "slideMenuController"]
+- !private ["PSo18UIContentContainer", "UIImage"]
+- !private ["PSo18UIContentContainer", "addLeftBarButtonWithImage"]
+- !private ["PSo18UIContentContainer", "addLeftGestures"]
+- !private ["PSo18UIContentContainer", "navigationItem"]
+- !private ["PSo18UIContentContainer", "removeLeftGestures"]
+- !private ["PSo18UIContentContainer", "removeRightGestures"]
+- !private ["PSo18UIContentContainer", "slideMenuController"]
+- !private ["PSo18UIFocusEnvironment", "UIImage"]
+- !private ["PSo18UIFocusEnvironment", "addLeftBarButtonWithImage"]
+- !private ["PSo18UIFocusEnvironment", "addLeftGestures"]
+- !private ["PSo18UIFocusEnvironment", "navigationItem"]
+- !private ["PSo18UIFocusEnvironment", "removeLeftGestures"]
+- !private ["PSo18UIFocusEnvironment", "removeRightGestures"]
+- !private ["PSo18UIFocusEnvironment", "slideMenuController"]
+- !private ["PSo27UIGestureRecognizerDelegate", "addLeftGestures"]
+- !private ["PSo27UIGestureRecognizerDelegate", "removeLeftGestures"]
+- !private ["PSo27UIGestureRecognizerDelegate", "removeRightGestures"]
+- !private ["CSo7UIImage", "init"]
+- !private ["CSo16UINavigationItem", "leftBarButtonItem"]
+- !private ["CSo16UINavigationItem", "rightBarButtonItem"]
+- !private ["CSo11UIResponder", "UIImage"]
+- !private ["CSo11UIResponder", "addLeftBarButtonWithImage"]
+- !private ["CSo11UIResponder", "addLeftGestures"]
+- !private ["CSo11UIResponder", "navigationItem"]
+- !private ["CSo11UIResponder", "removeLeftGestures"]
+- ["CSo11UIResponder", "removeNavigationBarItem"]
+- !private ["CSo11UIResponder", "removeRightGestures"]
+- ["CSo11UIResponder", "setNavigationBarItem"]
+- !private ["CSo11UIResponder", "slideMenuController"]
+- !private ["PSo16UIStateRestoring", "UIImage"]
+- !private ["PSo16UIStateRestoring", "addLeftBarButtonWithImage"]
+- !private ["PSo16UIStateRestoring", "addLeftGestures"]
+- !private ["PSo16UIStateRestoring", "navigationItem"]
+- !private ["PSo16UIStateRestoring", "removeLeftGestures"]
+- !private ["PSo16UIStateRestoring", "removeRightGestures"]
+- !private ["PSo16UIStateRestoring", "slideMenuController"]
+- !private ["PSo18UITraitEnvironment", "UIImage"]
+- !private ["PSo18UITraitEnvironment", "addLeftBarButtonWithImage"]
+- !private ["PSo18UITraitEnvironment", "addLeftGestures"]
+- !private ["PSo18UITraitEnvironment", "navigationItem"]
+- !private ["PSo18UITraitEnvironment", "removeLeftGestures"]
+- !private ["PSo18UITraitEnvironment", "removeRightGestures"]
+- !private ["PSo18UITraitEnvironment", "slideMenuController"]
+- !private ["CSo16UIViewController", "UIImage"]
+- !private ["CSo16UIViewController", "addLeftBarButtonWithImage"]
+- !private ["CSo16UIViewController", "addLeftGestures"]
+- !private ["CSo16UIViewController", "navigationItem"]
+- !private ["CSo16UIViewController", "removeLeftGestures"]
+- ["CSo16UIViewController", "removeNavigationBarItem"]
+- !private ["CSo16UIViewController", "removeRightGestures"]
+- ["CSo16UIViewController", "setNavigationBarItem"]
+- !private ["CSo16UIViewController", "slideMenuController"]
+- !private ["PSs24_ImageLiteralConvertible", "init"]
+depends-nominal:
+- "PSs9AnyObject"
+- "PSs11CVarArgType"
+- "PSs23CustomStringConvertible"
+- "PSs9Equatable"
+- "PSs8Hashable"
+- !private "PSo8NSCoding"
+- !private "PSo26NSExtensionRequestHandling"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "C6Pavefs19SlideMenuController"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo21UIAppearanceContainer"
+- !private "PSo18UIContentContainer"
+- !private "PSo18UIFocusEnvironment"
+- !private "PSo27UIGestureRecognizerDelegate"
+- !private "CSo7UIImage"
+- !private "CSo16UINavigationItem"
+- "CSo11UIResponder"
+- !private "PSo16UIStateRestoring"
+- !private "PSo18UITraitEnvironment"
+- "CSo16UIViewController"
+- !private "PSs24_ImageLiteralConvertible"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+interface-hash: "210efacc61262d2ab9976af195324b8b"
