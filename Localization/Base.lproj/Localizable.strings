@@ -1,0 +1,204 @@
+
+/*
+"back" = "< Back"
+"registration" = "Registration"
+"help" = "Help"
+"about" = "About"
+"home" = "Home"
+"register" = "Register"
+"changePassword" = "Change Password"
+"profile" = "Profile"
+
+
+"Individual" = "Individual"
+"Logout" = "Logout"
+"Queries" = "Queries"
+"AddIndividual" = "Add Individual"
+"EditIndividual" = "Edit Individual"
+"DeleteIndividual" = "Delete Individual"
+"Ontology" = "Ontology"
+"ChangePassword" = "Change Password"
+
+
+
+"UsernameLabel" = "Enter Username"
+"PasswordLabel" = "Enter Password"
+"NewPasswordLabel" = "Enter New Password"
+"EmailLabel" = "Enter Email"
+"ConfirmPasswordLabel" = "Enter Confirm Password"
+"SelectUserCategory" = "Select User Category"
+"UsernameMissing" = "Please Enter Username"
+"PasswordMissing" = "Please Enter Password"
+"EmailMissing" = "Please Enter Email"
+"ConfirmPasswordMissing" = "Please Enter Confirm Password"
+"UserCategoryMissing" = "Please Select User Category"
+"Terms" = "Terms of use"
+"PasswordDoesNotMatch" = "Password Does Not Match"
+"NotValidEmail" = "Please Enter Valid Email"
+"AgreeTermsOfUse" = "Agree Terms of use"
+"OkButton" = "Ok"
+
+
+"ChangePasswordFailed" = "Change Password Failed"
+"PasswordChangedSuccessfully" = "Password Changed Successfully"
+"RetrieveIndividualServiceFailed" = "Retrieve Individual Service Failed"
+"AddIndividualServiceSuccessful" = "Individual Added"
+"AddIndividualServiceFailed" = "Add Individual Service Failed"
+"EditIndividualServiceSuccessfull" = "Individual Edited Successfully"
+"EditIndividualServiceFailed" = "Edit Individual Service Failed"
+"DeleteIndividualServiceFailed" = "Failed to Delete"
+
+"NamePlaceholder" = "Enter Name"
+"SurnamePlaceholder" = "Enter Surname"
+"EmailPlaceholder" = "Enter Email"
+"PasswordPlaceholder" = "Enter Password"
+"ConfirmPasswordPlaceholder" = "Enter Confirm Password"
+"GenderPlaceholder" = "Select Gender"
+"BirthDatePlaceholder" = "Enter BirthDate"
+"PhonePlaceholder" = "Enter Phone"
+"FaxPlaceholder" = "Enter Fax"
+"AddressPlaceholder" = "Enter Address"
+"AreaLocationPlaceholder" = "Enter Area Location"
+"PostCodePlaceholder" = "Enter Postcode"
+"CityPlaceholder" = "Enter City"
+"AreaPlaceholder" = "Enter Area"
+"CountryPlaceholder" = "Select Country"
+"TimeZonePlaceholder" = "Select Time Zone"
+"ProfessionPlaceholder" = "Enter Profession"
+"EducationLevelPlaceholder" = "Select Education Level"
+"PersonalIDPlaceholder" = "Enter Personal ID"
+"YearOfExperiencePlaceholder" = "Enter Years of Experience"
+"UpdateProfile" = "Update Profile"
+
+"ProfileRetrieveFailed" = "Failed To Retrive Profile"
+"ProfileUpdateFailed" = "Failed To Update Profile"
+"ProfileUpdateSuccessfully" = "Profile Updated Successfully"
+
+"NameMissing" = "Please Enter Name"
+"SurnameMissing" = "Please Enter Surname"
+"GenderMissing" = "Please Select Gender"
+"BirthDateMissing" = "Please Select Birthdate"
+"PhoneMissing" = "Please Enter Phone Number"
+"FaxMissing" = "Please Enter Fax"
+"AddressMissing" = "Please Enter Address"
+"AreaLocationMissing" = "Please Enter Area Location"
+"PostcodeMissing" = "Please Enter Postcode"
+"CityMissing" = "Please Enter City"
+"AreaMissing" = "Please Enter Area"
+"CountryMissing" = "Please Select Country"
+"TimezoneMissing" = "Please Select Timezone"
+"ProfessionMissing" = "Please Enter Profession"
+"EducationLevelMissing" = "Please Select Education Level"
+"PersonalIDMissing" = "Please Enter Personal ID"
+"YearsOfExperienceMissing" = "Please Enter Years Of Experience"
+
+
+"ChildCode" = "Child Code"
+"ChildCodePlaceholder" = "Enter Child Code"
+"Age" = "Age"
+"AgePlaceholder" = "Enter Age"
+"BirthMonth" = "Birth Month"
+"BirthMonthPlaceholder" = "Month"
+"BirthYear" = "Birth Year"
+"BirthYearPlaceholder" = "Year"
+"Sex" = "Sex (ontology id)(Class_374)"
+"SexPlaceholder" = "Enter Sex"
+"DiagnosisDate" = "Diagnosis Date"
+"DiagnosisDatePlaceholder" = "Select Diagnosis Date"
+"FunctionalityLevel" = "Functionality Level"
+"FunctionalityLevelPlaceholder" = "Select Functional Level"
+"EducationLevel" = "Education Level"
+"EducationLevelPlaceholder" = "Select Education Level"
+"InsuranceType" = "Insurance Type"
+"InsuranceTypePlaceholder" = "Select Insurance Type"
+"Diagnosis1" = "Diagnosis 1"
+"Diagnosis1Placeholder" = "Enter Diagnosis 1"
+"Diagnosis2" = "Diagnosis 2"
+"Diagnosis2Placeholder" = "Enter Diagnosis 2"
+"Diagnosis3" = "Diagnosis 3"
+"Diagnosis3Placeholder" = "Enter Diagnosis 3"
+"Diagnosis4" = "Diagnosis 4"
+"Diagnosis4Placeholder" = "Enter Diagnosis 4"
+"Diagnosis5" = "Diagnosis 5"
+"Diagnosis5Placeholder" = "Enter Diagnosis 5"
+"RiskFactor1" = "Risk Factor 1"
+"RiskFactor1Placeholder" = "Enter Risk Factor 1"
+"RiskFactor2" = "Risk Factor 2"
+"RiskFactor2Placeholder" = "Enter Risk Factor 2"
+"RiskFactor3" = "Risk Factor 3"
+"RiskFactor3Placeholder" = "Enter Risk Factor 3"
+"RiskFactor4" = "Risk Factor 4"
+"RiskFactor4Placeholder" = "Enter Risk Factor 4"
+"RiskFactor5" = "Risk Factor 5"
+"RiskFactor5Placeholder" = "Enter Risk Factor 5"
+"Submit" = "Submit"
+
+
+"ChildCodeMissing" = "Please Enter Child Code"
+"AgeMissing" = "Please Enter Age"
+"BirthMonthMissing" = "Please Enter Birth Month"
+"BirthYearMissing" = "Please Enter Birth Year"
+"SexMissing" = "Please Enter Sex"
+"DiagnosisDateMissing" = "Please Select Diagnosis Date"
+"FunctioalityLevelMissing" = "Please Select Functionality Level"
+"InsuranceTypeMissing" = "Please Select Insurance Type"
+"Diagnosis1Missing" = "Please Enter Diagnosis 1"
+"RiskFactor1Missing" = "Please Enter Risk Factor 1"
+
+"AboutText" = "Το ΠΑΥΕΥΣ αποτελεί ένα έργο που υλοποιείται από το Εργαστήριο Πληροφοριακών Συστημάτων Διοίκησης και Επιχειρηματικής Νοημοσύνης του Πανεπιστημίου Πατρών και χρηματοδοτείται από το Υπουργείο Υγείας μέσω της δράσης «Ανθρώπινο Δυναμικό» ΕΣΠΑ 2007-2013.\n\nΠρόκειται για ένα Πρότυπο Σύστημα Υποστήριξης Ατόμων με Αυτισμό, βασιζόμενο σε ένα Ευφυές Πληροφοριακό Σύστημα. Το σύστημα παρέχει τη δυνατότητα καταχώρησης περιστατικού που χρήζει παρέμβασης αλλά και εμπλουτισμό της βάσης Γνώσης με καταχώρηση περίπτωσης. Επιπλέον, προσφέρει τη δυνατότητα αξιολόγησης των προτεινόμενων παρεμβάσεων αλλά και μια πρώιμη διάγνωση με τη μορφή ειδικά σχεδιασμένων & προσαρμοσμένων ερωτήσεων.\n\nΔικαιούχος Υλοποίησης Προγράμματος:\nΕιδικός Λογαριασμός Κονδυλίων Έρευνας (ΕΛΚΕ) Πανεπιστημίου Πατρών-Π.Δ.432/81  (Url: http://research.upatras.gr ).Εργαστήριο Πληροφοριακών Συστημάτων Διοίκησης & Επιχειρηματικής Νοημοσύνης (εΠΣΔΕΝ)\n\nΕπιστημονικός Υπεύθυνος Πράξης:\nΒουτσινάς Βασίλειος, Καθηγητής  Τμ. Διοίκησης Επιχειρήσεων Πανεπιστημίου Πατρών (email: vutsinas@upatras.gr)."
+
+"HelpText" = "\n<b>Πώς κάνω εγγραφή για να υποβάλω ερωτήματα (περιστατικά);</b>\nΣτην ηλεκτρονική διεύθυνση http://pavefs-cms.upatras.gr/registration συμπληρώνω τα στοιχεία που ζητούνται και αφού κάνω Αποδοχή Όρων, κάνω κλικ στο κουμπί «Αποστολή». Ελέγχω την διεύθυνση ηλεκτρονικής αλληλογραφίας που έχω δηλώσει και στην οποία έχει σταλεί μήνυμα επιτυχούς εγγραφής. Κάνω κλικ στον σύνδεσμο (Link) που έχω λάβει για ενεργοποίηση του λογαριασμού μου.\n\n<b>Κοστίζει η χρήση του ΠΑΥΕΥΣ;</b>\nΗ χρήση της εφαρμογής ΠΑΥΕΥΣ παρέχεται δωρεάν, σε αυτήν την φάση, για όλους τους τύπους χρηστών.\n\n<b>Αντιμετωπίζω τεχνικό πρόβλημα κατά την χρήση της εφαρμογής. Πού πρέπει να απευθυνθώ;</b>\nΣτην αρχική σελίδα της εφαρμογής υπάρχει Support Desk στο οποίο μπορείτε να πληκτρολογείτε το πρόβλημα που αντιμετωπίζετε ώστε να ληφθεί υπόψη από τους αρμόδιους να το επιλύσουν. Επίσης, μπορείτε να στέλνετε email στην ηλεκτρονική διεύθυνση pavefs.gr@gmail.com\n\n<b>Πόσα είδη χρηστών υπάρχουν και τι προϋποθέσεις έχει η κάθε χρήση;</b>\nΟι χρήστες διακρίνονται σε τρείς κατηγορίες: α) τον δοκιμαστικό χρήστη (guest-demo user), β) τον απλό χρήστη (registered-simple user) και γ) τον προχωρημένο χρήστη (registered-advanced user). Ο δοκιμαστικός χρήστης (demo user) θεωρείται επισκέπτης χρήστης, έχει πρόσβαση σε περιορισμένα πεδία, μπορεί να υποβάλει ερώτημα και να λάβει απάντηση από το σύστημα αλλά δεν μπορεί να διαμορφώσει την καρτέλα του ατόμου για το οποίο κάνει ερώτημα ούτε να αποθηκεύσει το ερώτημα που υπέβαλε. Ο απλός χρήστης (Regular user), έχει περισσότερες δυνατότητες, μπορεί να διαμορφώσει τόσο το προφίλ του όσο και το προφίλ του ατόμου για το οποίο κάνει ερώτημα. Επίσης, δύναται να διατηρεί ιστορικό ερωτημάτων και των αντίστοιχων απαντήσεών τους. Τέλος, ο προχωρημένος (advanced user), έχει τις ίδιες δυνατότητες με τον απλό χρήστη αλλά δύναται να προσθέτει περιπτώσεις(cases) ενώ κάνει και αξιολόγηση της απάντησης που του έδωσε το σύστημα, σε δεύτερο χρόνο"
+
+
+"queryName" = "Ξεκινήστε συμπληρώνοντας ένα όνομα για το περιστατικό που θα εισάγετε στη συνέχεια."
+"genderQuestion" = "Gender"
+"ageQuestion" = "Age"
+"tmsQuestion" = "Ημ. έναρξης περιστατικού"
+"tmeQuestion" = "Ημ. λήξης περιστατικού"
+
+"d1-d5Question" = "Diagnoses"
+"d " = "Diagnosis " //[d1 - d5]
+
+"rh1-rh5Question" = "Risk Factors"
+"rh " = "Risk Factor " //[rh1 - rh5]
+
+"b11Question" = "Τι συνέβη; Περιγράψτε επιλέγοντας αρχικά μία απο τις διαθέσιμες συμπεριφορές που περιγράφει ακριβώς ή κατά προσέγγιση την πραγματικότητα. "
+"kb11Question" = "Πρόκειτε για γνωστή συμπεριφορά που έχει εμφανιστεί ξανά στο παρελθόν; "
+"bp11Question" = "Ποιο μέρος του σώματος του ιδίου του ατόμου ή άλλου/ων αποτέλεσε τον στόχο της συμπεριφοράς; Αν δεν χρησιμοποιήθηκε κανενα μέρος, αφήστε το κένο. Διαλέξτε απο τις διαθέσιμες επιλογές."
+"po11Question" = "Για την εκδήλωση της συμπεριφοράς χρησιμοποιήθηκε κάποιο αντικείμενο; Διαλέξτε απο τις διαθέσιμες επιλογές. Αν δε χρησιμοποιήθηκε, αφήστε το πεδίο κενό. "
+"dr11Question" = "Η εκδήλωση της συμπεριφοράς οδήγησε στην καταστροφή κάποιου αντικειμένου; "
+"f11Question" = "Αναφερθείτε στη συχνότητα με την οποία εμφάνισε το άτομο το είδος συμπεριφοράς στο συγκεκριμένο περιστατικό."
+"in11Question" = "Περιγράψτε επιλέγοντας αντίστοιχα τη ένταση με την οποία εμφάνισε το άτομο τη συμπεριφορά."
+"ij11Question" = "Προκλήθηκε κάποιος τραυματισμός εξαιτίας του περιστατικού είτε στο ίδιο το άτομο είτε στους γύρω του;"
+"lo11Question" = "Πού συνέβει το περιστατικό; Επιλέξτε απο τις διαθέσιμες τοποθεσίες."
+"lop11Question" = "Πρόκειται για επιθυμητή τοποθεσία; (απαντήστε προαιρετικά)"
+"lof11Question" = "Πρόκειται για γνωστή/οικεία τοποθεσία; (απαντήστε προαιρετικά)"
+
+"st111-st131Question " = "Υπάρχει/ουν κάποιο/α συγκεκριμένο/α γεγονός/τα (έως 3) που θεωρείτε ότι μπορεί να αποτέλεσε/αν βασικό ερέθισμα για την εκδήλωση της συμπεριφοράς του ατόμου; Αν όχι, αφήστε τα πεδία κενά."
+"st " = "Event "//[st111 - st131]
+
+"s111-s141Question " = "Αναφερθείτε στην κατάσταση του ατόμου (συναισθηματική, φυσική, ψυχική κ.α.) λίγο πριν την εκδήλωση της συμπεριφοράς. Μπορείτε να συμπληρώσετε μέχρι 4 πεδία."
+"s " = "Condition "//[s111 - s141]
+
+"p111-p131Question " = "Ποια ήταν η κατάσταση του φυσικού περιβάλλοντος λίγο πριν τη εκδήλωση της συμπεριφοράς;"
+"p " = "Condition "//[p111 - p131]
+
+"n11Question" = "Πόσα ήταν τα άτομα που υπήρχαν στο περιβάλλον λίγο πριν την εκδήλωση του περιστατικού;"
+
+"w111-w141Question " = "Ποια ήταν αυτά τα άτομα (οικογένεια, φροντιστής); Ήταν γνωστά, άγνωστα ή και τα δύο; Μπορείτε να περιγράψετε έως 4 ατομα, εαν υπήρχαν περισσότερα, αναφερθείτε στις γενικές κατηγορίες"
+"w " = "Person "//[w111 - w141]
+
+"l11Question" = "Που βρισκόταν το άτομο λίγο πριν την εκδήλωση του περιστατικού;"
+"lp11Question" = "Πρόκειτε για επιθυμητή τοποθεσία;"
+"lf11Question" = "Πρόκειτε για γνωστή/οικεία τοποθεσία;"
+
+"rp111-rp141Question " = "Ανταποκριθήκατε με κάποιο τρόπο στη συμπεριφορά που εκδήλωσε το άτομο; Αν ναι, επιλέξετε μέχρι 4 απο τις παρακάτω παρεμβάσεις. Αν όχι, αφήστε κενά τα πεδία."
+"rp " = "Response "//[rp111 - rp141]
+
+"as11Question" = "Η ανταπόκριση σας στο περιστατικό ήταν μέρος συμφωνημένης/ σχεδιασμένης στρατηγικής διαχείρισης της συγκεκριμένης συμπεριφοράς;"
+"op111Question" = "Υπήρχαν άτομα στα οποία απευθυνθήκατε μετά το περιστατικο; Μπορείτε να συμπληρώσετε μέχρι ένα πεδία. Αν δεν απευθυνθήκατε αφήστε κενά τα πεδία. "
+"orp111Question" = "Το περιστατικό που συνέβη παρουσίασε κάποιον κίνδυνο για το ίδιο το άτομο; Αν όχι, αφήστε κενό το πεδίο."
+"oro111Question" = "Το περιστατικό που συνέβη παρουσίασε κάποιον κίνδυνο για τους γύρο του; Αν όχι, αφήστε κενό το πεδίο."
+"ore111Question" = "Μετά το συγκεκριμένο περιστατικό τέθηκαν κάποιοι περιορισμοί στο ίδιο το άτομο; Μπορείτε να συμπληρώσετε μέχρι ένα πεδίο με βάση τις διαθέσιμες επιλογές. Αν όχι, αφήστε κενό το πεδίο."
+
+*/
