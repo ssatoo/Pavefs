@@ -1,7 +1,0 @@
-<?xml version ="1.0"?>
-<pavefs>
-    <insurance>
-        <option code="1" name="Δημόσιος" />
-        <option code="2" name="Ιδιωτικός" />
-    </insurance>
-</pavefs>

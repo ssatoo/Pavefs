@@ -1,7 +1,0 @@
-<?xml version ="1.0"?>
-<pavefs>
-    <education>
-        <option code="1" name="Γενική εκπαίδευση" />
-        <option code="2" name="Σχολικές Μονάδες Ειδικής Αγωγής και Εκπαίδευσης (ΣΜΕΑΕ)" />
-    </education>
-</pavefs>

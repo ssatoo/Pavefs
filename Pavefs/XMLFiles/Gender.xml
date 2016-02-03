@@ -1,8 +1,0 @@
-<?xml version ="1.0"?>
-<pavefs>
-    <gender>
-        <option code="1" name="Male" />
-        <option code="2" name="Female" />
-        <option code="3" name="Transgender" />
-    </gender>
-</pavefs>

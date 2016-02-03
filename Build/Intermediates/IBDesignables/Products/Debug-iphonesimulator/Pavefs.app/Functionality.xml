@@ -1,8 +1,0 @@
-<?xml version ="1.0"?>
-<pavefs>
-    <functionality>
-        <option code="1" name="Χαμηλό" />
-        <option code="2" name="Μεσαίο" />
-        <option code="3" name="Υψηλό" />
-    </functionality>
-</pavefs>

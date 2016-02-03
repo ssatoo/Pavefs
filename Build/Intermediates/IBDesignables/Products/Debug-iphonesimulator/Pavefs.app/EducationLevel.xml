@@ -1,9 +1,0 @@
-<?xml version ="1.0"?>
-<pavefs>
-    <education>
-        <option code="1" name="Μέση Εκπαίδευση" />
-        <option code="2" name="Πτυχίο ΑΕΙ/ΤΕΙ" />
-        <option code="3" name="Μεταπτυχιακές Σπουδές" />
-    </education>
-</pavefs>
-
